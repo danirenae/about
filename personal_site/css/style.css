@@ -178,7 +178,8 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/dani.png) no-repeat center top;
+	background: url(../img/backgroundImage.jpg) no-repeat center top;
+	opacity: 0.8%;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
