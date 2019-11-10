@@ -7,6 +7,7 @@ body, html {
 	height: 100% !important;
 }
 .icon {
+	margin: 0 5px 0 5px;
 	height: 200px;
 	width: 200px;
 }
@@ -178,8 +179,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/backgroundImage.jpg) no-repeat center top;
-	opacity: 0.8%;
+	background: url(../img/backgroundPhoto.jpg) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -187,7 +187,7 @@ hr {
 	-o-background-size: cover;
 }
 .section-title.center {
-	padding: 25px 0 45px 0;
+	padding: 20px 0 20px 0;
 }
 /* About Section */
 #about {
@@ -461,6 +461,9 @@ ol.type li a:hover {
 	border-right-width: 14px;
 	border-left-width: 0;
 }
+.date-text{
+	margin-top: 22px;
+}
 .timeline>li .timeline-image {
 	z-index: 100;
 	position: absolute;
@@ -476,6 +479,7 @@ ol.type li a:hover {
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
 	font-size: 14px;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -639,6 +643,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 /* Media Queries */
+@media (min-width: 300px) {
+.timeline>li.timeline-image {
+  /*font-size: 10px;*/
+	background-color: darkgreen;
+}
+}
+
+
 @media(min-width:768px) {
 .intro {
 	height: 100%;
@@ -683,11 +695,17 @@ header .intro-text {
 	padding: 0 20px 20px 30px;
 	text-align: right;
 }
+/*.date-text{*/
+/*	padding: 0px;*/
+/*	font-size: 10px;*/
+/*}*/
 .timeline>li .timeline-image {
 	left: 50%;
 	width: 100px;
 	height: 100px;
 	margin-left: -50px;
+	font-size: 12px;
+	background-color: red;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 16px;
@@ -716,10 +734,12 @@ header .intro-text {
 	height: 150px;
 	margin-left: -75px;
 }
-.timeline>li .timeline-image h4 {
+.timeline>li .timeline-image {
 	margin-top: 30px;
 	font-size: 18px;
 	line-height: 26px;
+	background-color: purple;
+
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	padding: 0 20px 20px;
@@ -738,9 +758,11 @@ header .intro-text {
 	height: 150px;
 	margin-left: -75px;
 }
-.timeline>li .timeline-image h4 {
+.timeline>li .timeline-image {
 	margin-top: 40px;
 	font-weight: 400;
+	background-color: yellow;
+
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	padding: 10px 100px 20px 20px;
