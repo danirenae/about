@@ -1,1 +1,0 @@
-Danielle Adkins Personal Site
